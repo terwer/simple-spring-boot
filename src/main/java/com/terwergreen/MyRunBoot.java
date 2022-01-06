@@ -15,7 +15,7 @@ public class MyRunBoot {
         // 还有个问题，debug完毕后会自动退出，最好加点东西
         // 实际生产环境一般是后台进程运行
         int i = 0;
-        int max = 60;// 默认服务器启动1分钟
+        int max = 600;// 默认服务器启动1分钟
         while (i <= max) {
             if (i == 0) {
                 System.out.println("接受请求中...");
